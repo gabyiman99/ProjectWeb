@@ -1,0 +1,51 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body{
+	font-family: 'Montserrat',cursive; 
+}
+
+body.welcome {
+	background: url('https://source.unsplash.com/collection/207682') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.welcome main{
+	background-color:rgba(0, 0, 0, 0.8);
+}
+
+.welcome main .row{
+  height:100vh;
+}
+
+.welcome main .jumbotron{
+  background:transparent;
+}
+
+.vue-form-wizard h4.wizard-title{
+	font-size:3rem;
+	font-weight:600;
+	color:#676767;
+}
+
+//Register Button
+body .register-button{
+	background-color:#873219;
+	margin-left:1rem;
+}
+
+.navbar-laravel {
+  background-color: #064780;
+  border-top:1px solid rgba(255, 255, 255, 0.7);
+}
