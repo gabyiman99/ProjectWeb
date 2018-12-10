@@ -13,6 +13,7 @@ import BootstrapVue from 'bootstrap-vue';
 import VueFormWizard from 'vue-form-wizard';
 import Fragment from 'vue-fragment';
 import Vuelidate from 'vuelidate';
+// import store from './store'
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
@@ -36,15 +37,11 @@ Vue.use(Vuelidate)
 
 import Simulation from './components/Simulation.vue';
 import Navigation from './components/Navigation.vue';
-import FormOne from './components/forms/FormOne.vue';
-import FormTwo from './components/forms/FormTwo.vue';
-// import FormThree from './components/forms/FormThree.vue';
+
 
 Vue.component('simulation', Simulation);
 Vue.component('navigation', Navigation);
-Vue.component('form-one', FormOne);
-Vue.component('form-two', FormTwo);
-// Vue.component('form-three', FormThree);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -53,5 +50,6 @@ Vue.component('form-two', FormTwo);
  */
 
 const app = new Vue({
+//    store,
     el: '#app'
 });
