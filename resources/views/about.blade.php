@@ -1,19 +1,18 @@
 @extends('layouts.app')
 
-@section('page-title','Welcome')
+@section('page-title','Tentang Kami')
 
 @section('content')
 <b-container>
     <b-row align-v='center'>
         <b-jumbotron fluid text-variant="light">
             <template slot="header">
-                Simulasi Kredit XYZ
+                Tentang Kami
             </template>
             <template slot="lead">
-                Aplikasi berbasis web untuk aplikasi kredit, saat ini dalam tahap pengembangan.
+                Kami membuat aplikasi ini untuk tugas kampus. Saat ini aplikasi ini dalam tahap pengembangan.
             </template>
-            <b-btn href="#">Mulai Simulasi Kredit</b-btn>
         </b-jumbotron>
     </b-row>
-</b-container>    
+</b-container> 
 @endsection

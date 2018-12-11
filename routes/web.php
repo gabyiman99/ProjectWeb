@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
 Route::get('/simulation', 'LoanController@index')->name('simulasi');
 
 Route::group(['prefix' => 'admin'], function () {

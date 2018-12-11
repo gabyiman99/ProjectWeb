@@ -10470,21 +10470,21 @@ body {
   font-family: 'Montserrat',cursive;
 }
 
-body.welcome {
+body:not(.simulasi) {
   background: url("https://source.unsplash.com/collection/207682") no-repeat center center fixed;
   background-size: cover;
   -o-background-size: cover;
 }
 
-.welcome main {
+body:not(.simulasi) main {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.welcome main .row {
+body:not(.simulasi) main .row {
   height: 100vh;
 }
 
-.welcome main .jumbotron {
+body:not(.simulasi) main .jumbotron {
   background: transparent;
 }
 
