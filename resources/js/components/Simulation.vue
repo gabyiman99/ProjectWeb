@@ -127,7 +127,7 @@ export default {
 			if (this.plafon < this.kmk) {
 				return true;
 			} else {
-				alert("This is called before switchind tabs")
+				alert("Plafon lebih tinggi dari Kebutuhan Modal Kerja")
 				return false;
 			}
 		}

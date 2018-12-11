@@ -12,7 +12,7 @@
             <template slot="lead">
                 Aplikasi berbasis web untuk aplikasi kredit, saat ini dalam tahap pengembangan.
             </template>
-            <b-btn href="#">Mulai Simulasi Kredit</b-btn>
+            <b-btn href="{{ url('simulation') }}">Mulai Simulasi Kredit</b-btn>
         </b-jumbotron>
     </b-row>
 </b-container>    
